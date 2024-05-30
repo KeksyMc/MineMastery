@@ -25,40 +25,52 @@ mastery:
   gem:
     points_per_block: 1
     level:
-      0: 0
-      1: 100
-      2: 500
-      3: 1000
-      4: 2000
-      5: 3000
-      6: 4000
-      7: 5000
-      8: 6000
-      9: 8000
-      10: 10000
+      '0': 0
+      '1': 100
+      '2': 500
+      '3': 1000
+      '4': 2000
+      '5': 3000
+      '6': 4000
+      '7': 5000
+      '8': 6000
+      '9': 8000
+      '10': 10000
     rewards:
-      1: ["give {player} dpick 1", "broadcast chat {player} a gagné 1"]
-      2: ["give {player} dpick 2", "broadcast chat {player} a gagné 2"]
-      3: ["give {player} dpick 3", "broadcast chat {player} a gagné 3"]
+      '1':
+      - give {player} dpick 1
+      - broadcast chat {player} a gagné 1
+      '2':
+      - give {player} dpick 2
+      - broadcast chat {player} a gagné 2
+      '3':
+      - give {player} dpick 3
+      - broadcast chat {player} a gagné 3
       # Ajoutez d'autres récompenses pour les niveaux supérieurs
   metal:
     points_per_block: 1
     level:
-      0: 0
-      1: 200
-      2: 700
-      3: 1500
-      4: 3000
-      5: 4500
-      6: 6000
-      7: 7500
-      8: 9000
-      9: 11000
-      10: 13000
+      '0': 0
+      '1': 200
+      '2': 700
+      '3': 1500
+      '4': 3000
+      '5': 4500
+      '6': 6000
+      '7': 7500
+      '8': 9000
+      '9': 11000
+      '10': 13000
     rewards:
-      1: ["give {player} dpick 11", "broadcast chat {player} a gagné 11"]
-      2: ["give {player} dpick 22", "broadcast chat {player} a gagné 22"]
-      3: ["give {player} dpick 33", "broadcast chat {player} a gagné 33"]
+      '1':
+      - give {player} dpick 11
+      - broadcast chat {player} a gagné 11
+      '2':
+      - give {player} dpick 22
+      - broadcast chat {player} a gagné 22
+      '3':
+      - give {player} dpick 33
+      - broadcast chat {player} a gagné 33
       # Ajoutez d'autres récompenses pour les niveaux supérieurs
 ```
 ## Commandes
