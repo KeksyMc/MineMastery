@@ -53,31 +53,31 @@ mastery:
       2: ["give {player} dpick 22", "broadcast chat {player} a gagné 22"]
       3: ["give {player} dpick 33", "broadcast chat {player} a gagné 33"]
       # Ajoutez d'autres récompenses pour les niveaux supérieurs
-
+```
 ## Commandes
 
-- /minemastery stats : Affiche les statistiques de maîtrise du joueur.
-- /minemastery stats [joueur] : Affiche les statistiques de maîtrise d'un joueur spécifique (requiert la permission minemastery.admin).
-- /minemastery top : Affiche les meilleurs joueurs en termes de points de maîtrise.
-- /minemastery rewards : Affiche les récompenses disponibles pour chaque niveau.
-- /minemastery setpoints [joueur] [points] : Définit les points de maîtrise d'un joueur (requiert la permission minemastery.admin).
-- /minemastery addpoints [joueur] [points] : Ajoute des points de maîtrise à un joueur (requiert la permission minemastery.admin).
-- /minemastery removepoints [joueur] [points] : Retire des points de maîtrise d'un joueur (requiert la permission minemastery.admin).
-- /minemastery reload : Recharge la configuration du plugin (requiert la permission minemastery.admin).
+- `/minemastery stats` : Affiche les statistiques de maîtrise du joueur.
+- `/minemastery stats [joueur]` : Affiche les statistiques de maîtrise d'un joueur spécifique (requiert la permission minemastery.admin).
+- `/minemastery top` : Affiche les meilleurs joueurs en termes de points de maîtrise.
+- `/minemastery rewards` : Affiche les récompenses disponibles pour chaque niveau.
+- `/minemastery setpoints [joueur] [points]` : Définit les points de maîtrise d'un joueur (requiert la permission minemastery.admin).
+- `/minemastery addpoints [joueur] [points]` : Ajoute des points de maîtrise à un joueur (requiert la permission minemastery.admin).
+- `/minemastery removepoints [joueur] [points]` : Retire des points de maîtrise d'un joueur (requiert la permission minemastery.admin).
+- `/minemastery reload` : Recharge la configuration du plugin (requiert la permission minemastery.admin).
 
 ## Installation
 
 1. Téléchargez le fichier JAR du plugin.
-2. Placez le fichier JAR dans le dossier plugins de votre serveur Minecraft.
+2. Placez le fichier JAR dans le dossier `plugins` de votre serveur Minecraft.
 3. Démarrez ou redémarrez votre serveur Minecraft.
-4. Modifiez le fichier de configuration généré (config.yml) pour ajuster les paramètres selon vos besoins.
+4. Modifiez le fichier de configuration généré (`config.yml`) pour ajuster les paramètres selon vos besoins.
 5. Utilisez les commandes du plugin pour gérer et visualiser les points de maîtrise des joueurs.
 
 ## Développement
 
 Pour contribuer au développement de ce plugin :
 
-1. Clonez ce dépôt : git clone https://github.com/votre-utilisateur/minemastery.git
+1. Clonez ce dépôt : `git clone https://github.com/keksymc/minemastery.git`
 2. Importez le projet dans votre IDE préféré.
 3. Faites vos modifications et testez-les.
 4. Soumettez une pull request pour examen.
