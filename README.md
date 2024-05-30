@@ -2,6 +2,8 @@
 
 MineMastery est un plugin Minecraft qui ajoute un système de maîtrise pour les joueurs, leur permettant de gagner des points en minant des blocs. Ces points peuvent être utilisés pour progresser à travers différents niveaux de maîtrise, chacun offrant des récompenses uniques.
 
+**Version actuelle** : 1.0
+
 ## Fonctionnalités
 
 - **Système de Points**: Les joueurs gagnent des points de maîtrise chaque fois qu'ils minent un bloc.
@@ -12,6 +14,7 @@ MineMastery est un plugin Minecraft qui ajoute un système de maîtrise pour les
 ### A venir
 
 - **Sauvegarde des points**: Un fichier `stats.yml` permettra de sauvegarder les points des joueurs.
+- **Ajout de commandes**: Des commandes qui pourraient permettre de modifier la configuration du plugin in-game seront ajoutées par la suite, telle que `/minemastery create [rank]`.
   
 ## Configuration
 
@@ -68,6 +71,11 @@ mastery:
 - `/minemastery addpoints [joueur] [points]` : Ajoute des points de maîtrise à un joueur (requiert la permission minemastery.admin).
 - `/minemastery removepoints [joueur] [points]` : Retire des points de maîtrise d'un joueur (requiert la permission minemastery.admin).
 - `/minemastery reload` : Recharge la configuration du plugin (requiert la permission minemastery.admin).
+
+**Aliases**:
+- `/mm`
+- `/mmastery`
+- `/minem`
 
 ## Dépendances
 
