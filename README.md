@@ -10,6 +10,7 @@ MineMastery est un plugin Minecraft qui ajoute un système de maîtrise pour les
 - **Personnalisation**: Le nombre de points gagnés par bloc miné et les récompenses pour chaque niveau peuvent être personnalisés via le fichier de configuration.
 
 ### A venir
+
 - **Sauvegarde des points**: Un fichier `stats.yml` permettra de sauvegarder les points des joueurs.
   
 ## Configuration
@@ -67,6 +68,10 @@ mastery:
 - `/minemastery addpoints [joueur] [points]` : Ajoute des points de maîtrise à un joueur (requiert la permission minemastery.admin).
 - `/minemastery removepoints [joueur] [points]` : Retire des points de maîtrise d'un joueur (requiert la permission minemastery.admin).
 - `/minemastery reload` : Recharge la configuration du plugin (requiert la permission minemastery.admin).
+
+## Dépendances
+
+Ce plugin utilise `TokenEnchant` et `EZBlocks.
 
 ## Installation
 
