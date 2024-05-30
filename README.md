@@ -91,7 +91,7 @@ mastery:
 
 ## Dépendances
 
-Ce plugin utilise `EZBlocks`. Veuillez vérifier son installation avant d'installer `MineMastery`.
+Ce plugin utilise [EZBlocks](https://www.spigotmc.org/resources/ezblocks.1499/) pour compter les blocks cassés et [TokenEnchant](https://polymart.org/resource/tokenenchant-1-7-10-1-20-x.155) pour `TEBlockExplodeEvent`. Veuillez vérifier son installation avant d'installer `MineMastery`.
 
 ## Installation
 
