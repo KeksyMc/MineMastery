@@ -71,7 +71,7 @@ mastery:
 
 ## Dépendances
 
-Ce plugin utilise `TokenEnchant` et `EZBlocks.
+Ce plugin utilise `EZBlocks`. Veuillez vérifier son installation avant d'installer `MineMastery`.
 
 ## Installation
 
