@@ -9,6 +9,9 @@ MineMastery est un plugin Minecraft qui ajoute un système de maîtrise pour les
 - **Récompenses**: Chaque niveau offre des récompenses spécifiques qui peuvent être configurées.
 - **Personnalisation**: Le nombre de points gagnés par bloc miné et les récompenses pour chaque niveau peuvent être personnalisés via le fichier de configuration.
 
+### A venir
+- **Sauvegarde des points**: Un fichier `stats.yml` permettra de sauvegarder les points des joueurs.
+  
 ## Configuration
 
 Voici un exemple de configuration par défaut :
