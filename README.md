@@ -112,7 +112,7 @@ Pour contribuer au développement de ce plugin :
 
 ## Licence
 
-Ce projet est sous licence MIT. Consultez le fichier LICENSE pour plus de détails.
+Ce projet est sous licence MIT. Consultez le fichier [LICENSE](LICENSE) pour plus de détails.
 
 ## Remerciements
 
