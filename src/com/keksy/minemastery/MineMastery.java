@@ -99,7 +99,7 @@ public class MineMastery extends JavaPlugin implements Listener {
         // Load mastery types from config
         Set<String> masteryTypes = config.getConfigurationSection("mastery").getKeys(false);
         for (String type : masteryTypes) {
-            blocksPerPoint.put(type, config.getInt("mastery." + type + ".blocks-per-point"));
+            blocksPerPoint.put(type, config.getInt("mastery." + type + ".points-per-block"));
 
             Map<Integer, Integer> levels = new HashMap<>();
             Map<Integer, List<String>> levelRewards = new HashMap<>();
