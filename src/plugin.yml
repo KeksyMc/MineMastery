@@ -2,7 +2,7 @@ name: MineMastery
 version: 1.0.0
 main: com.keksy.minemastery.MineMastery
 api-version: 1.19
-depend: [TokenEnchant]
+depend: [TokenEnchant, EZBlocks]
 description: Un plugin de maîtrise de minage avec des compétences et des récompenses.
 authors: [AlexiMth]
 website: https://example.com
