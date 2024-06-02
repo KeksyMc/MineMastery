@@ -2,62 +2,22 @@ name: MineMastery
 version: 1.0.0
 main: com.keksy.minemastery.MineMastery
 api-version: 1.19
-depend: [TokenEnchant]
+depend: [EZBlocks, Vault, PlaceholderAPI]
 description: Un plugin de maîtrise de minage avec des compétences et des récompenses.
 authors: [AlexiMth]
-website: https://example.com
+website: https://skymines.fr
 commands:
-  minemastery:
+  mm:
     description: Commande principale pour MineMastery
-    usage: /<command> [args]
-    aliases: [mm]
-    permission: minemastery.use
-
-  minemastery stats:
-    description: Affiche les statistiques de maîtrise d'un joueur
-    usage: /<command> stats [player]
-    aliases: [mm stats]
-    permission: minemastery.use
-
-  minemastery top:
-    description: Affiche les meilleurs joueurs en fonction des points de maîtrise
-    usage: /<command> top
-    aliases: [mm top]
-    permission: minemastery.use
-
-  minemastery rewards:
-    description: Affiche les récompenses disponibles et les niveaux requis
-    usage: /<command> rewards
-    aliases: [mm rewards]
-    permission: minemastery.use
-
-  minemastery setpoints:
-    description: Définit le nombre de points de maîtrise d'un joueur
-    usage: /<command> setpoints <player> <points>
-    aliases: [mm setpoints]
-    permission: minemastery.admin
-
-  minemastery addpoints:
-    description: Ajoute des points de maîtrise à un joueur
-    usage: /<command> addpoints <player> <points>
-    aliases: [mm addpoints]
-    permission: minemastery.admin
-
-  minemastery removepoints:
-    description: Retire des points de maîtrise à un joueur
-    usage: /<command> removepoints <player> <points>
-    aliases: [mm removepoints]
-    permission: minemastery.admin
-
-  minemastery reload:
-    description: Recharge le fichier de configuration
-    usage: /<command> reload
-    aliases: [mm reload]
-    permission: minemastery.admin
-permissions:
-  minemastery.use:
-    description: Permission pour utiliser les commandes de MineMastery
-    default: true
-  minemastery.admin:
-    description: Permission pour les commandes administratives de MineMastery
-    default: op
+    usage: /mm <subcommand>
+    aliases: [minemastery]
+    subcommands:
+      stats:
+        description: Affiche les points de maîtrise d'un joueur ou de tous les joueurs depuis la console
+        usage: /mm stats [joueur]
+      addpoints:
+        description: Ajoute des points de maîtrise à un joueur
+        usage: /mm addpoints <joueur> <points>
+      reload:
+        description: Recharge la configuration de MineMastery
+        usage: /mm reload
