@@ -10,6 +10,7 @@ import com.keksy.minemastery.listeners.TEListener;
 import org.bukkit.ChatColor;
 import org.bukkit.command.PluginCommand;
 import org.bukkit.plugin.java.JavaPlugin;
+import com.vk2gpz.tokenenchant.event.TEBlockExplodeEvent;
 
 public class MineMastery extends JavaPlugin {
 
